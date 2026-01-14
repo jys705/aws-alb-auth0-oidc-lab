@@ -1,0 +1,12 @@
+# AWS 설정
+aws_region   = "ap-northeast-2"  # 서울 리전
+project_name = "alb-auth0-lab"
+instance_type = "t2.micro"  # 프리티어
+
+# Auth0 설정 (Auth0에서 발급받은 값으로 대체하세요)
+auth0_domain        = "dev-xxxxx.us.auth0.com"
+auth0_client_id     = "your-client-id-here"
+auth0_client_secret = "your-client-secret-here"
+
+# ACM 인증서 ARN (HTTPS 리스너에 필요, 선택사항)
+# acm_certificate_arn = "arn:aws:acm:ap-northeast-2:123456789012:certificate/xxxxx"
